@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Carrinho de Compras Mágico</h1>
+     
+            <section class="descricao-produtos">
+                    <label for="nomeProduto">Nome</label>
+                    <input type="text" name="nomeProduto" id="nomeProduto">
+                    <section class="quantidade">
+                        <button id="btnAdd">+</button>
+                        <p id="qtdProdutos">1</p>
+                        <button id="btnRem">-</button>
+                    </section>
+                    <button id="btnAdicionar" type="button">Adicionar</button>
+            </section>
+       
+        <section class="carrinho">
+            <p>Meus Produtos</p>
+            <ul id="listaProdutos">
+                
+            </ul>
+            <p>Total de Produtos: <span id="totalProdutos">0</span></p>
+        </section>
+    </main>
+    <footer>
+        Feito com &hearts; por <a href="http://www.github.com/phillima" target="_blank">Minha Página</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

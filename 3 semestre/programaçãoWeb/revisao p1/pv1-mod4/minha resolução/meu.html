@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho magico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="meu.css">
+</head>
+<body>
+    <main>
+        <h1>Carrinho de Compras Mágico</h1>
+        <section class="encima">
+            <label for="nome">Nome</label>
+            <input type="text" id="nomeProduto">
+            <section class="botoes">
+                <button id="aumentaQtd">+</button>
+                <span id="areaQtd">1</span>
+                <button id="diminuiQtd">-</button>
+            </section>
+            <button id="btnAdicionar">Adicionar</button>
+        </section>
+
+        <section class="embaixo">
+            <p>Meus Produtos</p>
+            <ul id="listaProdutos">
+
+            </ul>
+            <p>Total de produtos: <span id="totalProdutos">0</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>Feito com muito suor por <a href="http://github.com/reimbazz" target="_blank">Pedro Reimberg</a>.</p>
+    </footer>
+    <script src="meu.js"></script>
+</body>
+</html>
