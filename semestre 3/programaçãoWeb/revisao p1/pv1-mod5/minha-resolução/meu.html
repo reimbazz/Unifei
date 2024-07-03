@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="meu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Calculadora Mágica</h1>
+        <section class="operandos">
+            <section class="opt1">
+                <label for="OP1">OP1</label>
+                <input type="number" id="OP1">
+            </section>
+            <p id="operador">+</p>
+            <section class="opt2">
+                <label for="OP2">OP2</label>
+                <input type="number" id="OP2">
+            </section>
+        </section>
+
+        <section class="botoes-operacao">
+            <button id="btnAdd">+</button>
+            <button id="btnSub">-</button>
+            <button id="btnMulti">*</button>
+        </section>
+        <button id="btnCalcula">=</button>
+        <h2>Resultado: <span id="idResposta"></span></h2>
+    </main>
+    <footer>
+        <p>Feito com muito suor por <a href="http://github.com/reimbazz" target="_blank">Pedro Reimberg</a>.</p>
+    </footer>
+    <script type="module" src="meu.js"></script>
+</body>
+</html>

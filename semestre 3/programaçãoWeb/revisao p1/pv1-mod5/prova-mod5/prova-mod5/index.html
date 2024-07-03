@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <h1>Calculadora Mágica</h1>
+        <section class="calculadora">
+            <section class="calculadora-operandos">
+                <div class="operandos">
+                    <label for="operando1">OP1</label>
+                    <input type="number" name="operando1" id="operando1">
+                </div>    
+                <p id="operacao">+</p>
+                <div class="operandos">
+                    <label for="operando2">OP2</label>
+                    <input type="number" name="operando2" id="operando2">
+                </div>
+            </section> 
+            <section class="calculadora-operandores">
+                <button id="btnSoma" type="button">+</button>
+                <button id="btnSub" type="button">-</button>
+                <button id="btnMul" type="button">*</button>
+            </section>
+            <button id="btnOperacao" type="button">=</button>
+        </section>
+        <section class="resultado">
+            <p>Resultado: <span id="numRes"></span></p>
+        </section>
+    </main>
+    <footer>
+        Feito com &hearts; por <a href="http://www.github.com/phillima" target="_blank">Minha Página</a>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
